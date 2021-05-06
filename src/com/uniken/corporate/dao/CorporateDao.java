@@ -18,7 +18,7 @@ public class CorporateDao {
 	private String jdbcDriver = "com.mysql.jdbc.Driver"; 
 	
 	private static final String INSERT_USERS_SQL = "INSERT INTO corporate" + "  (name, accountNumber) VALUES "
-			+ " (?, ?, ?);";
+			+ " (?, ?);";
 
 	private static final String SELECT_USER_BY_ID = "select id,name,accountNumber from corporate where id =?";
 	private static final String SELECT_ALL_USERS = "select * from corporate";
